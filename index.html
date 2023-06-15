@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- style main link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="patient container">
+        <h2 class="h2 text-center"><ins> ** PATIENT REGISTRATION FORM **</ins></h2>
+        <p class="p text-center"> Thank you for applying to our practices. please complete this patient <br>
+            registration form with your information and a doctor will contact you shortly.
+        </p> 
+        <hr class="text-black">
+    </div>
+
+
+    <div class="all container-fluid">
+
+        <div class="info">
+            <label for="name">Patient's Name : <span style="color: red;">*</span></label>
+            <input type="text" id="" placeholder="First" required>
+            <input type="text" id="" placeholder="Last" required><br><br>
+        </div>
+    
+        <div>
+        <label for="">Gender : </label>
+        <input type="radio" name="Gender" id="" value="male">Male
+        <input type="radio" name="Gender" id="" value="female">Female
+        <br><br>
+        </div>
+    
+        <div>
+            <label for=""> Phone : <span style="color: red;">*</span></label>
+            <input type="tel" name="" id="" min="10" max="10" placeholder="
+        ### ### ####"> <br><br>
+        </div>
+    
+        <div>
+            <label for="">Date of Birth : <span style="color: red;">*</span></label>
+            <input type="date" name="" id="birth"> <br><br>
+        </div>
+    
+        <div>
+            <label for="">Marital Status : <span style="color: red;">*</span></label>
+            <input type="radio" name="Marital Status" id="" value="Single">Single
+            <input type="radio" name="Marital Status" id="" value="Married">Married
+            <input type="radio" name="Marital Status" id="" value="Divorced">Divorced
+            <input type="radio" name="Marital Status" id="" value="Widow">Widow <br> <br>
+        </div>
+    
+        <div>
+            <label for="">Patient Address : <span style="color: red;">*</span></label>
+            <!-- <textarea name="" id="" cols="10" rows="2" placeholder="Street Address"></textarea> -->
+            <input type="text" name="" id="" placeholder="Street Address" required><br>
+            <input type="text" name="" id="" placeholder="City" required>
+            <input type="text" name="" id="" placeholder="State" required><br>
+            <input type="text" name="" id="" placeholder="Postel / Zip Code">
+            <!-- <label for="">Country</label> -->
+            <input type="text" name="Country" id="" placeholder="Country">
+            <select name="Country" id="">
+                <option value="">US</option>
+                <option value="">UK</option>
+                <option value="">Japan</option>
+                <option value="">Australia</option>
+                <option value="">India</option>
+                <option value="">Netherlands</option>
+                <option value="">canada</option>
+                <option value="">Italy</option>
+                <option value="">germany</option>
+            </select><br><br>
+        </div> <br>
+    
+        <div>
+            <label for="">Insurance Name : <span style="color: red;">*</span></label>
+            <input type="text" name="insurance name" id="">
+        </div> <br>
+    
+    
+        <div>
+            <label for="">Past medical history : <span style="color: red;">*</span></label> <br>
+            <input type="checkbox" name="" id="Anemia">Anemia <br>
+            <input type="checkbox" name="" id="Asthama">Asthama <br>
+            <input type="checkbox" name="" id="Bronchitis">Bronchitis <br>
+            <input type="checkbox" name="" id="Chickenpox">Chickenpox <br>
+            <input type="checkbox" name="" id="Diabetes">Diabetes <br>
+            <input type="checkbox" name="" id="Pneumonia">Pneumonia <br>
+            <input type="checkbox" name="" id="Thyroid Disease">Thyroid Disease <br>
+            <input type="checkbox" name="" id="Ulcer">Ulcer <br>
+            <input type="checkbox" name="" id="Other">Other <br> <br>
+    
+            <input type="file" name="" id="" accept="image/*">
+        </div> <br>
+    
+        <div>
+            <label for="">Patient/Guardian Signature : <span style="color: red;">*</span></label>
+            <p> According to our private policy and federal law, your information within
+                this patient registration form will <br>
+                remain private at all time.
+            </p>
+        </div> <br> <br>
+    
+
+    </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

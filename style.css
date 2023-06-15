@@ -1,0 +1,35 @@
+html , body{
+ height: 100%;
+ width: 100%;
+ margin: 0px;
+ padding: 0px;
+ /* background: #b92b27;  
+ background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  
+ background: linear-gradient(to right, #1565C0, #b92b27);   */
+ background-color: palegreen;
+}
+
+.h2 {
+    margin-top: 3%;
+}
+
+.p{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: 600;
+}
+
+.all{
+    margin-top: auto;
+    padding-left: 5%;
+
+
+}
+
+label{
+    font-weight: bold;
+    padding: auto;
+    
+}
+
+ 
